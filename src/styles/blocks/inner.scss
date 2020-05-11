@@ -1,0 +1,12 @@
+.inner {
+  width: 290px;
+  margin: 0 auto;
+
+  @include tablet {
+    width: 720px;
+  }
+
+  @include desktop {
+    width: 954px;
+  }
+}

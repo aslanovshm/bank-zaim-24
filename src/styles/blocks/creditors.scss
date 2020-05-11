@@ -1,0 +1,27 @@
+.creditors {
+  padding-top: 20px;
+
+  @include tablet {
+    padding-top: 53px;
+  }
+}
+
+.creditors__heading {
+  margin-bottom: 20px;
+
+  @include tablet {
+    margin-bottom: 40px;
+  }
+}
+
+.creditors__list {
+  margin: 0 0 18px;
+  padding: 0;
+  list-style: none;
+
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -28px;
+  }
+}

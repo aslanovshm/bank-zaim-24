@@ -1,0 +1,24 @@
+.licences {
+  padding-bottom: 41px;
+}
+
+.licences__inner {
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.licences__heading {
+  margin-bottom: 14px;
+
+  @include mobile-only {
+    text-align: left;
+  }
+
+  @include tablet {
+    margin-bottom: 35px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,43 @@
+.faq {
+  margin-bottom: 48px;
+}
+
+.faq__item {
+  margin-bottom: 17px;
+
+  & p {
+    display: none;
+  }
+
+  & p:first-child {
+    display: block;
+  }
+}
+
+.faq__item--active {
+  & p {
+    display: block;
+  }
+}
+
+.faq__question {
+  margin: 0 0 15px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.faq__answer {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.faq__link {
+  font-size: 14px;
+  text-transform: lowercase;
+  color: #59b0f6;
+
+  &--grey {
+    color: #a7aec2;
+  }
+}

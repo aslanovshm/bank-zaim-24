@@ -1,0 +1,45 @@
+.license {
+  border: 2px solid #F5F7F9;
+
+  @include mobile-only {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @include tablet {
+    width: 340px;
+    margin-bottom: 15px;
+  }
+
+  @include desktop {
+    width: 462px;
+  }
+}
+
+.license__title {
+  margin: 0;
+  padding: 23px 15px 12px;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #1C1C20;
+  background-color: #F5F7F9;
+
+  @include tablet {
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+}
+
+.license__desc {
+  margin: 0;
+  padding: 4px 13px 24px;
+  line-height: 21px;
+
+  @include tablet {
+    padding: 12px 22px 17px;
+  }
+}
